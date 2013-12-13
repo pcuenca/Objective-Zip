@@ -70,39 +70,17 @@
 		B05F7F0C17DE083200372F33 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3FC17766067005212EC /* trees.c */; };
 		B05F7F0D17DE083200372F33 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3FE17766067005212EC /* uncompr.c */; };
 		B05F7F0E17DE083200372F33 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B40117766067005212EC /* zutil.c */; };
-		B05F7F0F17DE096E00372F33 /* ZipFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D353E10E56BD300B63EFA /* ZipFile.h */; };
-		B05F7F1017DE096E00372F33 /* ZipException.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D356910E56F4D00B63EFA /* ZipException.h */; };
-		B05F7F1117DE096E00372F33 /* ZipWriteStream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D357410E5797600B63EFA /* ZipWriteStream.h */; };
-		B05F7F1217DE096E00372F33 /* FileInZipInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C83F49310E7CBCB002FB3CB /* FileInZipInfo.h */; };
-		B05F7F1317DE096E00372F33 /* ZipReadStream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CBE431610E95FA300AC9ED3 /* ZipReadStream.h */; };
-		B05F7F1417DE096E00372F33 /* unzip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D352A10E56A9000B63EFA /* unzip.h */; };
-		B05F7F1517DE096E00372F33 /* zip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D352C10E56A9000B63EFA /* zip.h */; };
-		B05F7F1717DE0A0100372F33 /* ObjectiveZip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05F7F1617DE098E00372F33 /* ObjectiveZip.h */; };
-		B06FC8F817DE0D1600D5BFB8 /* ARCHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C9893AF16E5511500E1190A /* ARCHelper.h */; };
-		B06FC8F917DE0D2E00D5BFB8 /* ioapi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D352610E56A9000B63EFA /* ioapi.h */; };
+		B05F7F0F17DE096E00372F33 /* ZipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D353E10E56BD300B63EFA /* ZipFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05F7F1017DE096E00372F33 /* ZipException.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D356910E56F4D00B63EFA /* ZipException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05F7F1117DE096E00372F33 /* ZipWriteStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D357410E5797600B63EFA /* ZipWriteStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05F7F1217DE096E00372F33 /* FileInZipInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C83F49310E7CBCB002FB3CB /* FileInZipInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05F7F1317DE096E00372F33 /* ZipReadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBE431610E95FA300AC9ED3 /* ZipReadStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05F7F1417DE096E00372F33 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D352A10E56A9000B63EFA /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05F7F1517DE096E00372F33 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D352C10E56A9000B63EFA /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05F7F1717DE0A0100372F33 /* ObjectiveZip.h in Headers */ = {isa = PBXBuildFile; fileRef = B05F7F1617DE098E00372F33 /* ObjectiveZip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B06FC8F817DE0D1600D5BFB8 /* ARCHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9893AF16E5511500E1190A /* ARCHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B06FC8F917DE0D2E00D5BFB8 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D352610E56A9000B63EFA /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B05F7EEA17DE079A00372F33 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				B06FC8F917DE0D2E00D5BFB8 /* ioapi.h in CopyFiles */,
-				B06FC8F817DE0D1600D5BFB8 /* ARCHelper.h in CopyFiles */,
-				B05F7F1717DE0A0100372F33 /* ObjectiveZip.h in CopyFiles */,
-				B05F7F0F17DE096E00372F33 /* ZipFile.h in CopyFiles */,
-				B05F7F1017DE096E00372F33 /* ZipException.h in CopyFiles */,
-				B05F7F1117DE096E00372F33 /* ZipWriteStream.h in CopyFiles */,
-				B05F7F1217DE096E00372F33 /* FileInZipInfo.h in CopyFiles */,
-				B05F7F1317DE096E00372F33 /* ZipReadStream.h in CopyFiles */,
-				B05F7F1417DE096E00372F33 /* unzip.h in CopyFiles */,
-				B05F7F1517DE096E00372F33 /* zip.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -365,6 +343,26 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		EB235E45185B7E3600A67510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06FC8F917DE0D2E00D5BFB8 /* ioapi.h in Headers */,
+				B06FC8F817DE0D1600D5BFB8 /* ARCHelper.h in Headers */,
+				B05F7F1717DE0A0100372F33 /* ObjectiveZip.h in Headers */,
+				B05F7F0F17DE096E00372F33 /* ZipFile.h in Headers */,
+				B05F7F1017DE096E00372F33 /* ZipException.h in Headers */,
+				B05F7F1117DE096E00372F33 /* ZipWriteStream.h in Headers */,
+				B05F7F1217DE096E00372F33 /* FileInZipInfo.h in Headers */,
+				B05F7F1317DE096E00372F33 /* ZipReadStream.h in Headers */,
+				B05F7F1417DE096E00372F33 /* unzip.h in Headers */,
+				B05F7F1517DE096E00372F33 /* zip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		1D6058900D05DD3D006BFB54 /* Objective-Zip */ = {
 			isa = PBXNativeTarget;
@@ -389,7 +387,8 @@
 			buildPhases = (
 				B05F7EE817DE079A00372F33 /* Sources */,
 				B05F7EE917DE079A00372F33 /* Frameworks */,
-				B05F7EEA17DE079A00372F33 /* CopyFiles */,
+				EB235E45185B7E3600A67510 /* Headers */,
+				EB235E44185B7BB000A67510 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -446,6 +445,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB235E44185B7BB000A67510 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "##########################################\n#\n# c.f. http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.7\n#\n# Latest Change:\n# - Supports iPhone 5 / iPod Touch 5 (uses Apple's workaround to lipo bug)\n#\n# Purpose:\n#   Automatically create a Universal static library for iPhone + iPad + iPhone Simulator from within XCode\n#\n# Author: Adam Martin - http://twitter.com/t_machine_org\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
@@ -580,6 +595,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PUBLIC_HEADERS_FOLDER_PATH = /include;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -608,6 +624,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PUBLIC_HEADERS_FOLDER_PATH = /include;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
