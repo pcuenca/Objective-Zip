@@ -55,21 +55,6 @@
 		B05F7EFD17DE082C00372F33 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D352510E56A9000B63EFA /* ioapi.c */; };
 		B05F7EFE17DE082C00372F33 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D352910E56A9000B63EFA /* unzip.c */; };
 		B05F7EFF17DE082C00372F33 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D352B10E56A9000B63EFA /* zip.c */; };
-		B05F7F0017DE083200372F33 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3E917766067005212EC /* adler32.c */; };
-		B05F7F0117DE083200372F33 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3EA17766067005212EC /* compress.c */; };
-		B05F7F0217DE083200372F33 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3EB17766067005212EC /* crc32.c */; };
-		B05F7F0317DE083200372F33 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3ED17766067005212EC /* deflate.c */; };
-		B05F7F0417DE083200372F33 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3EF17766067005212EC /* gzclose.c */; };
-		B05F7F0517DE083200372F33 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3F117766067005212EC /* gzlib.c */; };
-		B05F7F0617DE083200372F33 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3F217766067005212EC /* gzread.c */; };
-		B05F7F0717DE083200372F33 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3F317766067005212EC /* gzwrite.c */; };
-		B05F7F0817DE083200372F33 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3F417766067005212EC /* infback.c */; };
-		B05F7F0917DE083200372F33 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3F517766067005212EC /* inffast.c */; };
-		B05F7F0A17DE083200372F33 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3F817766067005212EC /* inflate.c */; };
-		B05F7F0B17DE083200372F33 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3FA17766067005212EC /* inftrees.c */; };
-		B05F7F0C17DE083200372F33 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3FC17766067005212EC /* trees.c */; };
-		B05F7F0D17DE083200372F33 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B3FE17766067005212EC /* uncompr.c */; };
-		B05F7F0E17DE083200372F33 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8B40117766067005212EC /* zutil.c */; };
 		B05F7F0F17DE096E00372F33 /* ZipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D353E10E56BD300B63EFA /* ZipFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B05F7F1017DE096E00372F33 /* ZipException.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D356910E56F4D00B63EFA /* ZipException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B05F7F1117DE096E00372F33 /* ZipWriteStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D357410E5797600B63EFA /* ZipWriteStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -508,21 +493,6 @@
 				B05F7EFD17DE082C00372F33 /* ioapi.c in Sources */,
 				B05F7EFE17DE082C00372F33 /* unzip.c in Sources */,
 				B05F7EFF17DE082C00372F33 /* zip.c in Sources */,
-				B05F7F0017DE083200372F33 /* adler32.c in Sources */,
-				B05F7F0117DE083200372F33 /* compress.c in Sources */,
-				B05F7F0217DE083200372F33 /* crc32.c in Sources */,
-				B05F7F0317DE083200372F33 /* deflate.c in Sources */,
-				B05F7F0417DE083200372F33 /* gzclose.c in Sources */,
-				B05F7F0517DE083200372F33 /* gzlib.c in Sources */,
-				B05F7F0617DE083200372F33 /* gzread.c in Sources */,
-				B05F7F0717DE083200372F33 /* gzwrite.c in Sources */,
-				B05F7F0817DE083200372F33 /* infback.c in Sources */,
-				B05F7F0917DE083200372F33 /* inffast.c in Sources */,
-				B05F7F0A17DE083200372F33 /* inflate.c in Sources */,
-				B05F7F0B17DE083200372F33 /* inftrees.c in Sources */,
-				B05F7F0C17DE083200372F33 /* trees.c in Sources */,
-				B05F7F0D17DE083200372F33 /* uncompr.c in Sources */,
-				B05F7F0E17DE083200372F33 /* zutil.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
